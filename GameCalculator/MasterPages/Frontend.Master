@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Frontend.master.cs" Inherits="GameCalculator.MasterPages.Frontend" %>
+
+<!--
+    Name: Gil Emerson (200186807)
+    Assignment 1 – Entreprise Computing : Game Calculator
+    Due	Date: Friday, June 19 @	11:59pm
+    Description: Game Calculator
+                You	will build a simple	c# web application that	performs some basic calculations.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Windows 10 Compatible-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!--CSS-->
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="/Content/Styles.css" rel="stylesheet" />
+
+    <!-- Site Icon -->
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+
+</head>
+<body>
+    <div class="container-fluid">
+        <form id="form1" runat="server">
+            <div id="PageWrapper">
+
+                <nav class="navbar navbar-inverse">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="http://webdesign4.georgianc.on.ca/~200186807/EmersonInc/startpage.html">Emerson Inc</a>
+                    </div>
+                    <!--navbar-header-->
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="Default.aspx">Game</a></li>
+                        </ul>
+                        <!--nav navbar-nav-->
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Help<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="http://www.georgiancollege.ca/">Georgian College</a></li>
+                                    <li><a href="http://webdesign4.georgianc.on.ca/~200186807/EmersonInc/contact.html">Contact</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+                                </ul>
+                                <!-- dropdown-menu -->
+                            </li>
+                            <!--dropdown-->
+                        </ul>
+                        <!--nav navbar-nav navbar-right-->
+                    </div>
+                    <!--collapse navbar-collapse-->
+                    <!-- /.navbar-collapse -->
+                </nav>
+                <!--navbar navbar-default-->
+
+                <section id="MainContent">
+                    <asp:ContentPlaceHolder ID="cpMainContent" runat="server"></asp:ContentPlaceHolder>
+                </section>
+
+                <!-- Footer-->
+                <footer>
+                    <nav class="nav navbar-inverse navbar-fixed-bottom">
+                        <div class="container-fluid">
+                            <h4 class="navbar-text">&copy;Copyright 2015 Emerson Inc</h4>
+                        </div>
+                        <!-- navbar-fixed-bottom-->
+                    </nav>
+                    <!-- nav navbar-default-->
+                </footer>
+
+            </div>
+            <!--PageWrapper-->
+        </form>
+    </div>
+    <!--Container-->
+
+    <!-- JavaScripts -->
+    <script src="/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -21,9 +21,7 @@ namespace GameCalculator
             if (rblResult1.SelectedValue == "Win")
             {
                 num1 = 1;
-            }
-            else
-            {
+            } else {
                 num1 = 0;
             }
             if (rblResult2.SelectedValue == "Win")
@@ -60,10 +58,10 @@ namespace GameCalculator
             lblWinning.Text = Convert.ToString(Winning);
 
             //caculate total scored
-            lblScored.Text = Convert.ToString(Convert.ToDouble(txtScored1.Text) + Convert.ToDouble(txtScored2.Text) + Convert.ToDouble(txtScored3.Text) + Convert.ToDouble(txtScored4.Text));
+            lblScored.Text = Convert.ToString( Convert.ToDouble(txtScored1.Text) + Convert.ToDouble(txtScored2.Text) + Convert.ToDouble(txtScored3.Text) + Convert.ToDouble(txtScored4.Text));
 
             //caculate total allowed
-            lblAllowed.Text = Convert.ToString(Convert.ToDouble(txtAllowed1.Text) + Convert.ToDouble(txtAllowed2.Text) + Convert.ToDouble(txtAllowed3.Text) + Convert.ToDouble(txtAllowed4.Text));
+            lblAllowed.Text =Convert.ToString(Convert.ToDouble(txtAllowed1.Text)+Convert.ToDouble(txtAllowed2.Text)+Convert.ToDouble(txtAllowed3.Text)+Convert.ToDouble(txtAllowed4.Text));
 
             //Caculate Point Differential
             lblDifferential.Text = Convert.ToString(Convert.ToDouble(lblScored.Text) - Convert.ToDouble(lblAllowed.Text));

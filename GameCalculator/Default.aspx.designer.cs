@@ -49,40 +49,40 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.TextBox txtAllowed1;
         
         /// <summary>
-        /// Label1 control.
+        /// lblScored1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label lblScored1;
         
         /// <summary>
-        /// TextBox1 control.
+        /// txtScored1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox txtScored1;
         
         /// <summary>
-        /// Label6 control.
+        /// lblSpectators1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label6;
+        protected global::System.Web.UI.WebControls.Label lblSpectators1;
         
         /// <summary>
-        /// TextBox6 control.
+        /// txtSpectators1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.TextBox txtSpectators1;
         
         /// <summary>
         /// lblResult2 control.
@@ -103,58 +103,58 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.RadioButtonList rblResult2;
         
         /// <summary>
-        /// Label7 control.
+        /// lblAllowed2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label7;
+        protected global::System.Web.UI.WebControls.Label lblAllowed2;
         
         /// <summary>
-        /// TextBox7 control.
+        /// txtAllowed2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        protected global::System.Web.UI.WebControls.TextBox txtAllowed2;
         
         /// <summary>
-        /// lblScored1 control.
+        /// lblScored2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblScored1;
+        protected global::System.Web.UI.WebControls.Label lblScored2;
         
         /// <summary>
-        /// txtScored1 control.
+        /// txtScored2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtScored1;
+        protected global::System.Web.UI.WebControls.TextBox txtScored2;
         
         /// <summary>
-        /// Label5 control.
+        /// lblSpectators2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label5;
+        protected global::System.Web.UI.WebControls.Label lblSpectators2;
         
         /// <summary>
-        /// TextBox5 control.
+        /// txtSpectators2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.TextBox txtSpectators2;
         
         /// <summary>
         /// lblResult3 control.
@@ -175,58 +175,58 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.RadioButtonList rblResult3;
         
         /// <summary>
-        /// Label8 control.
+        /// lblAllowed3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label8;
+        protected global::System.Web.UI.WebControls.Label lblAllowed3;
         
         /// <summary>
-        /// TextBox8 control.
+        /// txtAllowed3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox8;
+        protected global::System.Web.UI.WebControls.TextBox txtAllowed3;
         
         /// <summary>
-        /// Label2 control.
+        /// lblScored3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label lblScored3;
         
         /// <summary>
-        /// TextBox2 control.
+        /// txtScored3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox txtScored3;
         
         /// <summary>
-        /// Label4 control.
+        /// lblSpectators3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
+        protected global::System.Web.UI.WebControls.Label lblSpectators3;
         
         /// <summary>
-        /// TextBox4 control.
+        /// txtSpectators3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox txtSpectators3;
         
         /// <summary>
         /// lblResult4 control.
@@ -247,58 +247,58 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.RadioButtonList rblResult4;
         
         /// <summary>
-        /// Label9 control.
+        /// lblAllowed4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label9;
+        protected global::System.Web.UI.WebControls.Label lblAllowed4;
         
         /// <summary>
-        /// TextBox9 control.
+        /// txtAllowed4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox9;
+        protected global::System.Web.UI.WebControls.TextBox txtAllowed4;
         
         /// <summary>
-        /// Label3 control.
+        /// lblScored4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.Label lblScored4;
         
         /// <summary>
-        /// TextBox3 control.
+        /// txtScored4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox txtScored4;
         
         /// <summary>
-        /// lblSpectators1 control.
+        /// lblSpectators4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSpectators1;
+        protected global::System.Web.UI.WebControls.Label lblSpectators4;
         
         /// <summary>
-        /// txtSpectators1 control.
+        /// txtSpectators4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSpectators1;
+        protected global::System.Web.UI.WebControls.TextBox txtSpectators4;
         
         /// <summary>
         /// btnSummary control.

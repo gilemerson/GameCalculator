@@ -17,17 +17,18 @@
                                 <asp:ListItem Value="Win" Text="Win"></asp:ListItem>
                                 <asp:ListItem Value="Loss" Text="Loss"></asp:ListItem>
                             </asp:RadioButtonList>
-                        </div>
+                        </div> 
                         <div class="form-group">
                             <asp:Label ID="lblAllowed1" runat="server" CssClass="col-sm-4 control-label">Allowed:</asp:Label>
                             <asp:TextBox ID="txtAllowed1" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                         </div>
-                        <asp:Label ID="Label1" runat="server" CssClass="col-sm-4 control-label">Scored:</asp:Label>
-                        <asp:TextBox ID="TextBox1" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                        <asp:Label ID="lblScored1" runat="server" CssClass="col-sm-4 control-label">Scored:</asp:Label>
+                        <asp:TextBox ID="txtScored1" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                     </div>
+
                     <div class="form-group">
-                        <asp:Label ID="Label6" runat="server" CssClass="col-sm-4 control-label">Spectators:</asp:Label>
-                        <asp:TextBox ID="TextBox6" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                        <asp:Label ID="lblSpectators1" runat="server" CssClass="col-sm-4 control-label">Spectators:</asp:Label>
+                        <asp:TextBox ID="txtSpectators1" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3">
@@ -41,16 +42,16 @@
                             </asp:RadioButtonList>
                         </div>
                         <div class="form-group">
-                            <asp:Label ID="Label7" runat="server" CssClass="col-sm-4 control-label">Allowed:</asp:Label>
-                            <asp:TextBox ID="TextBox7" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            <asp:Label ID="lblAllowed2" runat="server" CssClass="col-sm-4 control-label">Allowed:</asp:Label>
+                            <asp:TextBox ID="txtAllowed2" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
 
                         </div>
-                        <asp:Label ID="lblScored1" runat="server" CssClass="col-sm-4 control-label">Scored:</asp:Label>
-                        <asp:TextBox ID="txtScored1" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                        <asp:Label ID="lblScored2" runat="server" CssClass="col-sm-4 control-label">Scored:</asp:Label>
+                        <asp:TextBox ID="txtScored2" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                     </div>
                     <div class="form-group">
-                        <asp:Label ID="Label5" runat="server" CssClass="col-sm-4 control-label">Spectators:</asp:Label>
-                        <asp:TextBox ID="TextBox5" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                        <asp:Label ID="lblSpectators2" runat="server" CssClass="col-sm-4 control-label">Spectators:</asp:Label>
+                        <asp:TextBox ID="txtSpectators2" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                     </div>
                 </div>
 
@@ -65,17 +66,17 @@
                             </asp:RadioButtonList>
                         </div>
                         <div class="form-group">
-                            <asp:Label ID="Label8" runat="server" CssClass="col-sm-4 control-label">Allowed:</asp:Label>
-                            <asp:TextBox ID="TextBox8" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            <asp:Label ID="lblAllowed3" runat="server" CssClass="col-sm-4 control-label">Allowed:</asp:Label>
+                            <asp:TextBox ID="txtAllowed3" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
 
                         </div>
-                        <asp:Label ID="Label2" runat="server" CssClass="col-sm-4 control-label">Scored:</asp:Label>
-                        <asp:TextBox ID="TextBox2" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                        <asp:Label ID="lblScored3" runat="server" CssClass="col-sm-4 control-label">Scored:</asp:Label>
+                        <asp:TextBox ID="txtScored3" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
 
                     </div>
                     <div class="form-group">
-                        <asp:Label ID="Label4" runat="server" CssClass="col-sm-4 control-label">Spectators:</asp:Label>
-                        <asp:TextBox ID="TextBox4" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                        <asp:Label ID="lblSpectators3" runat="server" CssClass="col-sm-4 control-label">Spectators:</asp:Label>
+                        <asp:TextBox ID="txtSpectators3" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3">
@@ -89,15 +90,15 @@
                             </asp:RadioButtonList>
                         </div>
                         <div class="form-group">
-                            <asp:Label ID="Label9" runat="server" CssClass="col-sm-4 control-label">Allowed:</asp:Label>
-                            <asp:TextBox ID="TextBox9" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            <asp:Label ID="lblAllowed4" runat="server" CssClass="col-sm-4 control-label">Allowed:</asp:Label>
+                            <asp:TextBox ID="txtAllowed4" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                         </div>
-                        <asp:Label ID="Label3" runat="server" CssClass="col-sm-4 control-label">Scored:</asp:Label>
-                        <asp:TextBox ID="TextBox3" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                        <asp:Label ID="lblScored4" runat="server" CssClass="col-sm-4 control-label">Scored:</asp:Label>
+                        <asp:TextBox ID="txtScored4" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                     </div>
                     <div class="form-group">
-                        <asp:Label ID="lblSpectators1" runat="server" CssClass="col-sm-4 control-label">Spectators:</asp:Label>
-                        <asp:TextBox ID="txtSpectators1" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                        <asp:Label ID="lblSpectators4" runat="server" CssClass="col-sm-4 control-label">Spectators:</asp:Label>
+                        <asp:TextBox ID="txtSpectators4" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                     </div>
                 </div>
             </div>

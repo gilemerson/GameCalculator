@@ -18,8 +18,16 @@
                                 <asp:ListItem Value="Win" Text="Win"></asp:ListItem>
                                 <asp:ListItem Value="Loss" Text="Loss"></asp:ListItem>
                             </asp:RadioButtonList>
-                        </div>     
+                        </div> 
+                          <asp:Label ID="Label1" runat="server" CssClass="col-sm-4 control-label">Scored:</asp:Label>
+                            <asp:TextBox ID="TextBox1" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>                 
+                                
                     </div>
+                     <div class="form-group">
+                            <asp:Label ID="Label6" runat="server" CssClass="col-sm-4 control-label">Spectators:</asp:Label>
+                            <asp:TextBox ID="TextBox6" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            
+                        </div> 
                 </div>
                    <div class="col-sm-3 col-md-3">
                     <div class="well-lg">
@@ -31,7 +39,17 @@
                                 <asp:ListItem Value="Loss" Text="Loss"></asp:ListItem>
                             </asp:RadioButtonList>
                         </div>
-                     </div>
+                           
+                            <asp:Label ID="lblScored1" runat="server" CssClass="col-sm-4 control-label">Scored:</asp:Label>
+                            <asp:TextBox ID="txtScored1" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>                 
+                            
+                        </div>
+                        <div class="form-group">
+                            <asp:Label ID="Label5" runat="server" CssClass="col-sm-4 control-label">Spectators:</asp:Label>
+                            <asp:TextBox ID="TextBox5" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            
+                        </div> 
+               
                  </div>
                 
                 <div class="col-sm-3 col-md-3">
@@ -44,7 +62,15 @@
                                 <asp:ListItem Value="Loss" Text="Loss"></asp:ListItem>
                             </asp:RadioButtonList>
                         </div>
+                          <asp:Label ID="Label2" runat="server" CssClass="col-sm-4 control-label">Scored:</asp:Label>
+                            <asp:TextBox ID="TextBox2" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>                 
+                            
                    </div>
+                     <div class="form-group">
+                            <asp:Label ID="Label4" runat="server" CssClass="col-sm-4 control-label">Spectators:</asp:Label>
+                            <asp:TextBox ID="TextBox4" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            
+                        </div> 
                 </div>
 
                 <div class="col-sm-3 col-md-3">
@@ -57,7 +83,16 @@
                                 <asp:ListItem Value="Loss" Text="Loss"></asp:ListItem>
                             </asp:RadioButtonList>
                         </div>
+                          <asp:Label ID="Label3" runat="server" CssClass="col-sm-4 control-label">Scored:</asp:Label>
+                            <asp:TextBox ID="TextBox3" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>                 
+                            
                      </div>
+                     <div class="form-group">
+                            <asp:Label ID="lblSpectators1" runat="server" CssClass="col-sm-4 control-label">Spectators:</asp:Label>
+                            <asp:TextBox ID="txtSpectators1" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            
+                        </div> 
+
                 </div>
             </div>
         </div><!--end of container fluid-->

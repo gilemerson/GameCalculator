@@ -59,7 +59,18 @@ namespace GameCalculator
             Double Winning = Wins / 4;
             lblWinning.Text = Convert.ToString(Winning);
 
-          
+            //caculate total scored
+            lblScored.Text = Convert.ToString(Convert.ToDouble(txtScored1.Text) + Convert.ToDouble(txtScored2.Text) + Convert.ToDouble(txtScored3.Text) + Convert.ToDouble(txtScored4.Text));
+
+            //caculate total allowed
+            lblAllowed.Text = Convert.ToString(Convert.ToDouble(txtAllowed1.Text) + Convert.ToDouble(txtAllowed2.Text) + Convert.ToDouble(txtAllowed3.Text) + Convert.ToDouble(txtAllowed4.Text));
+
+            //Caculate Point Differential
+            lblDifferential.Text = Convert.ToString(Convert.ToDouble(lblScored.Text) - Convert.ToDouble(lblAllowed.Text));
+
+            //caculate Spectators
+            lblTotal.Text = Convert.ToString(Convert.ToDouble(txtSpectators1.Text) + Convert.ToDouble(txtSpectators2.Text) + Convert.ToDouble(txtSpectators3.Text) + Convert.ToDouble(txtSpectators4.Text));
+
             //caculate average
             lblAve.Text = Convert.ToString(Convert.ToDouble(lblTotal.Text) / 4);
 

@@ -146,7 +146,8 @@
                     <asp:Label ID="lblAve" runat="server"></asp:Label>
                 </div>
             </div>
-        </asp:Panel>
+           
+        </asp:Panel> 
    
-
 </asp:Content>
+

@@ -13,22 +13,22 @@ namespace GameCalculator {
     public partial class Default {
         
         /// <summary>
-        /// lblResult1 control.
+        /// LabelResult1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblResult1;
+        protected global::System.Web.UI.WebControls.Label LabelResult1;
         
         /// <summary>
-        /// rblResult1 control.
+        /// Result1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rblResult1;
+        protected global::System.Web.UI.WebControls.RadioButtonList Result1;
         
         /// <summary>
         /// lblAllowed1 control.
@@ -85,22 +85,22 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.TextBox txtSpectators1;
         
         /// <summary>
-        /// lblResult2 control.
+        /// LabelResult2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblResult2;
+        protected global::System.Web.UI.WebControls.Label LabelResult2;
         
         /// <summary>
-        /// rblResult2 control.
+        /// Result2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rblResult2;
+        protected global::System.Web.UI.WebControls.RadioButtonList Result2;
         
         /// <summary>
         /// lblAllowed2 control.
@@ -157,22 +157,22 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.TextBox txtSpectators2;
         
         /// <summary>
-        /// lblResult3 control.
+        /// LabelResult3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblResult3;
+        protected global::System.Web.UI.WebControls.Label LabelResult3;
         
         /// <summary>
-        /// rblResult3 control.
+        /// Result3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rblResult3;
+        protected global::System.Web.UI.WebControls.RadioButtonList Result3;
         
         /// <summary>
         /// lblAllowed3 control.
@@ -229,22 +229,22 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.TextBox txtSpectators3;
         
         /// <summary>
-        /// lblResult4 control.
+        /// LabelResult4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblResult4;
+        protected global::System.Web.UI.WebControls.Label LabelResult4;
         
         /// <summary>
-        /// rblResult4 control.
+        /// Result4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rblResult4;
+        protected global::System.Web.UI.WebControls.RadioButtonList Result4;
         
         /// <summary>
         /// lblAllowed4 control.

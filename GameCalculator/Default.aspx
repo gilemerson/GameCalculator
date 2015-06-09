@@ -14,8 +14,8 @@
                         <!--Game Play Number #1-->
                         <h1 class="alert-success text-center">Game 1</h1>
                         <div class="form-group">
-                            <asp:Label ID="lblResult1" runat="server" CssClass="col-sm-4 control-label badge">Result:</asp:Label>
-                            <asp:RadioButtonList ID="rblResult1" runat="server" CssClass="col-sm-5">
+                            <asp:Label ID="LabelResult1" runat="server" CssClass="col-sm-4 control-label badge">Result:</asp:Label>
+                            <asp:RadioButtonList ID="Result1" runat="server" CssClass="col-sm-5">
                                 <asp:ListItem Value="Win" Text="Win"></asp:ListItem>
                                 <asp:ListItem Value="Loss" Text="Loss"></asp:ListItem>
                             </asp:RadioButtonList>
@@ -40,8 +40,8 @@
                         <!--Game Play Number #2-->
                         <h1 class="alert-success text-center">Game 2</h1>
                         <div class="form-group">
-                            <asp:Label ID="lblResult2" runat="server" CssClass="col-sm-4 control-label badge">Result:</asp:Label>
-                            <asp:RadioButtonList ID="rblResult2" runat="server" CssClass="col-sm-5">
+                            <asp:Label ID="LabelResult2" runat="server" CssClass="col-sm-4 control-label badge">Result:</asp:Label>
+                            <asp:RadioButtonList ID="Result2" runat="server" CssClass="col-sm-5">
                                 <asp:ListItem Value="Win" Text="Win"></asp:ListItem>
                                 <asp:ListItem Value="Loss" Text="Loss"></asp:ListItem>
                             </asp:RadioButtonList>
@@ -66,8 +66,8 @@
                         <!--Game Play Number #3-->
                         <h1 class="alert-success text-center">Game 3</h1>
                         <div class="form-group">
-                            <asp:Label ID="lblResult3" runat="server" CssClass="col-sm-4 control-label badge">Result:</asp:Label>
-                            <asp:RadioButtonList ID="rblResult3" runat="server" CssClass="col-sm-5">
+                            <asp:Label ID="LabelResult3" runat="server" CssClass="col-sm-4 control-label badge">Result:</asp:Label>
+                            <asp:RadioButtonList ID="Result3" runat="server" CssClass="col-sm-5">
                                 <asp:ListItem Value="Win" Text="Win"></asp:ListItem>
                                 <asp:ListItem Value="Loss" Text="Loss"></asp:ListItem>
                             </asp:RadioButtonList>
@@ -93,8 +93,8 @@
                         <!--Game Play Number #4-->
                         <h1 class="alert-success text-center">Game 4</h1>
                         <div class="form-group">
-                            <asp:Label ID="lblResult4" runat="server" CssClass="col-sm-4 control-label badge">Result:</asp:Label>
-                            <asp:RadioButtonList ID="rblResult4" runat="server" CssClass="col-sm-5">
+                            <asp:Label ID="LabelResult4" runat="server" CssClass="col-sm-4 control-label badge">Result:</asp:Label>
+                            <asp:RadioButtonList ID="Result4" runat="server" CssClass="col-sm-5">
                                 <asp:ListItem Value="Win" Text="Win"></asp:ListItem>
                                 <asp:ListItem Value="Loss" Text="Loss"></asp:ListItem>
                             </asp:RadioButtonList>

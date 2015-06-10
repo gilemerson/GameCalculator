@@ -33,6 +33,7 @@
                             <asp:Label ID="LabelSpectatorsNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Spectators:</asp:Label>
                             <asp:TextBox ID="TextSpectatorsNumber1" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                         </div>
+                       
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3">
@@ -59,6 +60,7 @@
                             <asp:Label ID="LabelSpectatorsNumber2" runat="server" CssClass="col-sm-4 control-label alert-success">Spectators:</asp:Label>
                             <asp:TextBox ID="TextSpectatorsNumber2" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                         </div>
+                       
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3">
@@ -86,6 +88,7 @@
                             <asp:Label ID="LabelSpectatorsNumber3" runat="server" CssClass="col-sm-4 control-label alert-success">Spectators:</asp:Label>
                             <asp:TextBox ID="TextSpectatorsNumber3" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                         </div>
+                       
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3">
@@ -114,6 +117,7 @@
                         </div>
                         <!--col-sm-3 col-md-3-->
                     </div>
+                   
                     <!--row-->
                 </div>
             </div>

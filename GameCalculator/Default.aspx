@@ -145,6 +145,7 @@
     <asp:Panel ID="PanelSummary" runat="server" Visible="false">
         <div class="well col-lg-14">
             <h4 class="alert-success">Summary</h4>
+            <br/>
             <div>
                 <!--Wins Summary-->
                 <label for="LWins" class="alert-success">Won:</label>

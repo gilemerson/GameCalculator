@@ -17,15 +17,15 @@
                             <asp:Label ID="LabelResult1" runat="server" CssClass="col-sm-4 control-label badge">Result:</asp:Label>
                             <asp:RadioButtonList ID="Result1" runat="server" CssClass="col-sm-5">
                                 <asp:ListItem Value="Win" Text="Win"></asp:ListItem>
-                                <asp:ListItem Value="Loss" Text="Loss"></asp:ListItem>
+                                <asp:ListItem Value="Loss" Text="Lose"></asp:ListItem>
                             </asp:RadioButtonList>
                         </div>
                         <div class="form-group">
-                            <asp:Label ID="LabelAllowedNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Allowed:</asp:Label>
+                            <asp:Label ID="LabelAllowedNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Points Allowed:</asp:Label>
                             <asp:TextBox ID="TextAllowedNumber1" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                         </div>
                         <div>
-                            <asp:Label ID="LabelScoredNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Scored:</asp:Label>
+                            <asp:Label ID="LabelScoredNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Points Scored:</asp:Label>
                             <asp:TextBox ID="TextScoredNumber1" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                         </div>
 
@@ -43,16 +43,16 @@
                             <asp:Label ID="LabelResult2" runat="server" CssClass="col-sm-4 control-label badge">Result:</asp:Label>
                             <asp:RadioButtonList ID="Result2" runat="server" CssClass="col-sm-5">
                                 <asp:ListItem Value="Win" Text="Win"></asp:ListItem>
-                                <asp:ListItem Value="Loss" Text="Loss"></asp:ListItem>
+                                <asp:ListItem Value="Loss" Text="Lose"></asp:ListItem>
                             </asp:RadioButtonList>
                         </div>
                         <div class="form-group">
-                            <asp:Label ID="LabelAllowedNumber2" runat="server" CssClass="col-sm-4 control-label alert-success">Allowed:</asp:Label>
+                            <asp:Label ID="LabelAllowedNumber2" runat="server" CssClass="col-sm-4 control-label alert-success">Points Allowed:</asp:Label>
                             <asp:TextBox ID="TextAllowedNumber2" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
 
                         </div>
                         <div>
-                            <asp:Label ID="LabelScoredNumber2" runat="server" CssClass="col-sm-4 control-label alert-success">Scored:</asp:Label>
+                            <asp:Label ID="LabelScoredNumber2" runat="server" CssClass="col-sm-4 control-label alert-success">Points Scored:</asp:Label>
                             <asp:TextBox ID="TextScoredNumber2" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                         </div>
                         <div class="form-group">
@@ -69,16 +69,16 @@
                             <asp:Label ID="LabelResult3" runat="server" CssClass="col-sm-4 control-label badge">Result:</asp:Label>
                             <asp:RadioButtonList ID="Result3" runat="server" CssClass="col-sm-5">
                                 <asp:ListItem Value="Win" Text="Win"></asp:ListItem>
-                                <asp:ListItem Value="Loss" Text="Loss"></asp:ListItem>
+                                <asp:ListItem Value="Loss" Text="Lose"></asp:ListItem>
                             </asp:RadioButtonList>
                         </div>
                         <div class="form-group">
-                            <asp:Label ID="LabelAllowedNumber3" runat="server" CssClass="col-sm-4 control-label alert-success">Allowed:</asp:Label>
+                            <asp:Label ID="LabelAllowedNumber3" runat="server" CssClass="col-sm-4 control-label alert-success">Points Allowed:</asp:Label>
                             <asp:TextBox ID="TextAllowedNumber3" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
 
                         </div>
                         <div>
-                            <asp:Label ID="LabelScoredNumber3" runat="server" CssClass="col-sm-4 control-label alert-success">Scored:</asp:Label>
+                            <asp:Label ID="LabelScoredNumber3" runat="server" CssClass="col-sm-4 control-label alert-success">Points Scored:</asp:Label>
                             <asp:TextBox ID="TextScoredNumber3" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
 
                         </div>
@@ -96,16 +96,16 @@
                             <asp:Label ID="LabelResult4" runat="server" CssClass="col-sm-4 control-label badge">Result:</asp:Label>
                             <asp:RadioButtonList ID="Result4" runat="server" CssClass="col-sm-5">
                                 <asp:ListItem Value="Win" Text="Win"></asp:ListItem>
-                                <asp:ListItem Value="Loss" Text="Loss"></asp:ListItem>
+                                <asp:ListItem Value="Loss" Text="Lose"></asp:ListItem>
                             </asp:RadioButtonList>
                         </div>
                         <!--well-lg-->
                         <div class="form-group">
-                            <asp:Label ID="LabelAllowedNumber4" runat="server" CssClass="col-sm-4 control-label alert-success">Allowed:</asp:Label>
+                            <asp:Label ID="LabelAllowedNumber4" runat="server" CssClass="col-sm-4 control-label alert-success">Points Allowed:</asp:Label>
                             <asp:TextBox ID="TextAllowedNumber4" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                         </div>
                         <div>
-                            <asp:Label ID="LabelScoredNumber4" runat="server" CssClass="col-sm-4 control-label alert-success">Scored:</asp:Label>
+                            <asp:Label ID="LabelScoredNumber4" runat="server" CssClass="col-sm-4 control-label alert-success">Points Scored:</asp:Label>
                             <asp:TextBox ID="TextScoredNumber4" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                         </div>
                         <div class="form-group">
@@ -176,4 +176,3 @@
 
     </asp:Panel>
 </asp:Content>
-

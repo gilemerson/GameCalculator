@@ -23,12 +23,13 @@ namespace GameCalculator
 
         protected void btnCalculate_Click(object sender, EventArgs e)
         {
-            //caculate wins and losses
+            //Caculate 'Wins' and 'Losses' For Games 1 Through 4
             Double number1;   
             Double number2;
             Double number3;
             Double number4;
 
+            //Result from game #1
             if (Result1.SelectedValue == "Win")
             {
                 number1 = 1;
@@ -38,7 +39,7 @@ namespace GameCalculator
                 number1 = 0;
             }
 
-
+            //Result from game #2
             if (Result2.SelectedValue == "Win")
             {
                 number2 = 1;
@@ -48,7 +49,7 @@ namespace GameCalculator
                 number2 = 0;
             }
 
-
+            //Result from game #34
             if (Result3.SelectedValue == "Win")
             {
                 number3 = 1;
@@ -58,7 +59,7 @@ namespace GameCalculator
                 number3 = 0;
             }
 
-
+            //Result from game #4
             if (Result4.SelectedValue == "Win")
             {
                 number4 = 1;
@@ -68,10 +69,11 @@ namespace GameCalculator
                 number4 = 0;
             }
 
-
+            //Calculate The Number of Wins
             Double Win = number1 + number2 + number3 + number4;
-            lblWins.Text = Convert.ToString(Win);
+            LabelWins.Text = Convert.ToString(Win);
 
+            //Calculate The Number of Losses
             Double Loss = 4 - Win;
             LabelLoss.Text = Convert.ToString(Loss);
 
@@ -81,10 +83,10 @@ namespace GameCalculator
             LabelWinning.Text = Convert.ToString(Won);
 
 
-            //Caculate total scored
+            //Caculate Total Scored
             LabelScored.Text = Convert.ToString(Convert.ToDouble(TextScoredNumber1.Text) + Convert.ToDouble(TextScoredNumber2.Text) + Convert.ToDouble(TextScoredNumber3.Text) + Convert.ToDouble(TextScoredNumber4.Text));
 
-            //Caculate total allowed
+            //Caculate Total Allowed
             LabelAllowed.Text = Convert.ToString(Convert.ToDouble(TextAllowedNumber1.Text) + Convert.ToDouble(TextAllowedNumber2.Text) + Convert.ToDouble(TextAllowedNumber3.Text) + Convert.ToDouble(TextAllowedNumber4.Text));
 
             //Caculate Point Differential
@@ -93,10 +95,10 @@ namespace GameCalculator
             //Caculate Spectators
             LabelTotal.Text = Convert.ToString(Convert.ToDouble(TextSpectatorsNumber1.Text) + Convert.ToDouble(TextSpectatorsNumber2.Text) + Convert.ToDouble(TextSpectatorsNumber3.Text) + Convert.ToDouble(TextSpectatorsNumber4.Text));
 
-            //Caculate average
+            //Caculate Average
             LabelAverage.Text = Convert.ToString(Convert.ToDouble(LabelTotal.Text) / 4);
 
-            //Show the Summary Panel
+            //Show The Summary Panel
             PanelSummary.Visible = true;
         }
     }

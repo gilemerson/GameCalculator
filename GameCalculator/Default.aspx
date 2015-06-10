@@ -149,7 +149,7 @@
             <div>
                 <!--Wins Summary-->
                 <label for="LWins" class="alert-success">Won:</label>
-                <asp:Label ID="lblWins" runat="server"></asp:Label>
+                <asp:Label ID="LabelWins" runat="server"></asp:Label>
             </div>
             <div>
                 <!--Losses Summary-->

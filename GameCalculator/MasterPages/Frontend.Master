@@ -27,6 +27,7 @@
 
 </head>
 <body>
+
     <div class="container-fluid">
         <form id="form1" runat="server">
             <div id="PageWrapper">
@@ -48,7 +49,7 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <!-- Link to GameCalculator in Navbar-->
-                            <li><a href="Default.aspx">Game</a></li>
+                            <li><a href="Default.aspx">GameCalculator</a></li>
                         </ul>
                         <!--nav navbar-nav-->
                         <!--Extra Links : Dropdown Menu-->

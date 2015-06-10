@@ -17,7 +17,10 @@ namespace GameCalculator
         protected void btnCalculate_Click(object sender, EventArgs e)
         {
             //caculate wins and losses
-            Double number1, number2, number3, number4;
+            Double number1;   
+            Double number2;
+            Double number3;
+            Double number4;
 
             if (Result1.SelectedValue == "Win")
             {
@@ -27,6 +30,7 @@ namespace GameCalculator
             {
                 number1 = 0;
             }
+
             if (Result2.SelectedValue == "Win")
             {
                 number2 = 1;
@@ -35,6 +39,7 @@ namespace GameCalculator
             {
                 number2 = 0;
             }
+
             if (Result3.SelectedValue == "Win")
             {
                 number3 = 1;
@@ -43,6 +48,7 @@ namespace GameCalculator
             {
                 number3 = 0;
             }
+
             if (Result4.SelectedValue == "Win")
             {
                 number4 = 1;
@@ -52,31 +58,35 @@ namespace GameCalculator
                 number4 = 0;
             }
 
+
             Double Win = number1 + number2 + number3 + number4;
             lblWins.Text = Convert.ToString(Win);
+
             Double Loss = 4 - Win;
-            lblLosses.Text = Convert.ToString(Loss);
+            LabelLoss.Text = Convert.ToString(Loss);
+
 
             //Caculate Winning %
-            Double Winning = Win / 4;
-            lblWinning.Text = Convert.ToString(Winning);
+            Double Won = Win / 4;
+            LabelWinning.Text = Convert.ToString(Won);
 
-            //caculate total scored
-            lblScored.Text = Convert.ToString( Convert.ToDouble(txtScored1.Text) + Convert.ToDouble(txtScored2.Text) + Convert.ToDouble(txtScored3.Text) + Convert.ToDouble(txtScored4.Text));
 
-            //caculate total allowed
-            lblAllowed.Text =Convert.ToString(Convert.ToDouble(txtAllowed1.Text)+Convert.ToDouble(txtAllowed2.Text)+Convert.ToDouble(txtAllowed3.Text)+Convert.ToDouble(txtAllowed4.Text));
+            //Caculate total scored
+            LabelScored.Text = Convert.ToString(Convert.ToDouble(TextScoredNumber1.Text) + Convert.ToDouble(TextScoredNumber2.Text) + Convert.ToDouble(TextScoredNumber3.Text) + Convert.ToDouble(TextScoredNumber4.Text));
+
+            //Caculate total allowed
+            LabelAllowed.Text = Convert.ToString(Convert.ToDouble(TextAllowedNumber1.Text) + Convert.ToDouble(TextAllowedNumber2.Text) + Convert.ToDouble(TextAllowedNumber3.Text) + Convert.ToDouble(TextAllowedNumber4.Text));
 
             //Caculate Point Differential
-            lblDifferential.Text = Convert.ToString(Convert.ToDouble(lblScored.Text) - Convert.ToDouble(lblAllowed.Text));
+            LabelDifferential.Text = Convert.ToString(Convert.ToDouble(LabelScored.Text) - Convert.ToDouble(LabelAllowed.Text));
 
-            //caculate Spectators
-            lblTotal.Text = Convert.ToString(Convert.ToDouble(txtSpectators1.Text) + Convert.ToDouble(txtSpectators2.Text) + Convert.ToDouble(txtSpectators3.Text) + Convert.ToDouble(txtSpectators4.Text));
+            //Caculate Spectators
+            LabelTotal.Text = Convert.ToString(Convert.ToDouble(TextSpectatorsNumber1.Text) + Convert.ToDouble(TextSpectatorsNumber2.Text) + Convert.ToDouble(TextSpectatorsNumber3.Text) + Convert.ToDouble(TextSpectatorsNumber4.Text));
 
-            //caculate average
-            lblAve.Text = Convert.ToString(Convert.ToDouble(lblTotal.Text) / 4);
+            //Caculate average
+            LabelAverage.Text = Convert.ToString(Convert.ToDouble(LabelTotal.Text) / 4);
 
-            //Show the summary Panel
+            //Show the Summary Panel
             pnlSummary.Visible = true;
         }
     }

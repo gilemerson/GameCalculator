@@ -31,58 +31,58 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.RadioButtonList Result1;
         
         /// <summary>
-        /// lblAllowed1 control.
+        /// LabelAllowedNumber1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblAllowed1;
+        protected global::System.Web.UI.WebControls.Label LabelAllowedNumber1;
         
         /// <summary>
-        /// txtAllowed1 control.
+        /// TextAllowedNumber1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAllowed1;
+        protected global::System.Web.UI.WebControls.TextBox TextAllowedNumber1;
         
         /// <summary>
-        /// lblScored1 control.
+        /// LabelScoredNumber1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblScored1;
+        protected global::System.Web.UI.WebControls.Label LabelScoredNumber1;
         
         /// <summary>
-        /// txtScored1 control.
+        /// TextScoredNumber1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtScored1;
+        protected global::System.Web.UI.WebControls.TextBox TextScoredNumber1;
         
         /// <summary>
-        /// lblSpectators1 control.
+        /// LabelSpectatorsNumber1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSpectators1;
+        protected global::System.Web.UI.WebControls.Label LabelSpectatorsNumber1;
         
         /// <summary>
-        /// txtSpectators1 control.
+        /// TextSpectatorsNumber1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSpectators1;
+        protected global::System.Web.UI.WebControls.TextBox TextSpectatorsNumber1;
         
         /// <summary>
         /// LabelResult2 control.
@@ -103,58 +103,58 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.RadioButtonList Result2;
         
         /// <summary>
-        /// lblAllowed2 control.
+        /// LabelAllowedNumber2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblAllowed2;
+        protected global::System.Web.UI.WebControls.Label LabelAllowedNumber2;
         
         /// <summary>
-        /// txtAllowed2 control.
+        /// TextAllowedNumber2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAllowed2;
+        protected global::System.Web.UI.WebControls.TextBox TextAllowedNumber2;
         
         /// <summary>
-        /// lblScored2 control.
+        /// LabelScoredNumber2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblScored2;
+        protected global::System.Web.UI.WebControls.Label LabelScoredNumber2;
         
         /// <summary>
-        /// txtScored2 control.
+        /// TextScoredNumber2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtScored2;
+        protected global::System.Web.UI.WebControls.TextBox TextScoredNumber2;
         
         /// <summary>
-        /// lblSpectators2 control.
+        /// LabelSpectatorsNumber2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSpectators2;
+        protected global::System.Web.UI.WebControls.Label LabelSpectatorsNumber2;
         
         /// <summary>
-        /// txtSpectators2 control.
+        /// TextSpectatorsNumber2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSpectators2;
+        protected global::System.Web.UI.WebControls.TextBox TextSpectatorsNumber2;
         
         /// <summary>
         /// LabelResult3 control.
@@ -175,58 +175,58 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.RadioButtonList Result3;
         
         /// <summary>
-        /// lblAllowed3 control.
+        /// LabelAllowedNumber3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblAllowed3;
+        protected global::System.Web.UI.WebControls.Label LabelAllowedNumber3;
         
         /// <summary>
-        /// txtAllowed3 control.
+        /// TextAllowedNumber3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAllowed3;
+        protected global::System.Web.UI.WebControls.TextBox TextAllowedNumber3;
         
         /// <summary>
-        /// lblScored3 control.
+        /// LabelScoredNumber3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblScored3;
+        protected global::System.Web.UI.WebControls.Label LabelScoredNumber3;
         
         /// <summary>
-        /// txtScored3 control.
+        /// TextScoredNumber3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtScored3;
+        protected global::System.Web.UI.WebControls.TextBox TextScoredNumber3;
         
         /// <summary>
-        /// lblSpectators3 control.
+        /// LabelSpectatorsNumber3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSpectators3;
+        protected global::System.Web.UI.WebControls.Label LabelSpectatorsNumber3;
         
         /// <summary>
-        /// txtSpectators3 control.
+        /// TextSpectatorsNumber3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSpectators3;
+        protected global::System.Web.UI.WebControls.TextBox TextSpectatorsNumber3;
         
         /// <summary>
         /// LabelResult4 control.
@@ -247,58 +247,58 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.RadioButtonList Result4;
         
         /// <summary>
-        /// lblAllowed4 control.
+        /// LabelAllowedNumber4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblAllowed4;
+        protected global::System.Web.UI.WebControls.Label LabelAllowedNumber4;
         
         /// <summary>
-        /// txtAllowed4 control.
+        /// TextAllowedNumber4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAllowed4;
+        protected global::System.Web.UI.WebControls.TextBox TextAllowedNumber4;
         
         /// <summary>
-        /// lblScored4 control.
+        /// LabelScoredNumber4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblScored4;
+        protected global::System.Web.UI.WebControls.Label LabelScoredNumber4;
         
         /// <summary>
-        /// txtScored4 control.
+        /// TextScoredNumber4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtScored4;
+        protected global::System.Web.UI.WebControls.TextBox TextScoredNumber4;
         
         /// <summary>
-        /// lblSpectators4 control.
+        /// LabelSpectatorsNumber4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSpectators4;
+        protected global::System.Web.UI.WebControls.Label LabelSpectatorsNumber4;
         
         /// <summary>
-        /// txtSpectators4 control.
+        /// TextSpectatorsNumber4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSpectators4;
+        protected global::System.Web.UI.WebControls.TextBox TextSpectatorsNumber4;
         
         /// <summary>
         /// btnSummary control.
@@ -328,66 +328,66 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.Label lblWins;
         
         /// <summary>
-        /// lblLosses control.
+        /// LabelLoss control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblLosses;
+        protected global::System.Web.UI.WebControls.Label LabelLoss;
         
         /// <summary>
-        /// lblWinning control.
+        /// LabelWinning control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblWinning;
+        protected global::System.Web.UI.WebControls.Label LabelWinning;
         
         /// <summary>
-        /// lblScored control.
+        /// LabelScored control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblScored;
+        protected global::System.Web.UI.WebControls.Label LabelScored;
         
         /// <summary>
-        /// lblAllowed control.
+        /// LabelAllowed control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblAllowed;
+        protected global::System.Web.UI.WebControls.Label LabelAllowed;
         
         /// <summary>
-        /// lblDifferential control.
+        /// LabelDifferential control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDifferential;
+        protected global::System.Web.UI.WebControls.Label LabelDifferential;
         
         /// <summary>
-        /// lblTotal control.
+        /// LabelTotal control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTotal;
+        protected global::System.Web.UI.WebControls.Label LabelTotal;
         
         /// <summary>
-        /// lblAve control.
+        /// LabelAverage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblAve;
+        protected global::System.Web.UI.WebControls.Label LabelAverage;
     }
 }

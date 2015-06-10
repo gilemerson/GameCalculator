@@ -57,6 +57,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\git.png" />
+    <Content Include="images\google.jpg" />
+    <Content Include="images\mail.png" />
     <Content Include="MasterPages\Frontend.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

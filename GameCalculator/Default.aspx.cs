@@ -1,4 +1,11 @@
-﻿using System;
+﻿
+    //Name: Gil Emerson (200186807)
+    //Assignment 1 – Entreprise Computing(COMP2007) : Game Calculator
+    //Due Date: Friday, June 19 @ 11:59pm
+    //Description: Game Calculator
+    //             You will build a simple c# web application that performs some basic calculations.
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -31,6 +38,7 @@ namespace GameCalculator
                 number1 = 0;
             }
 
+
             if (Result2.SelectedValue == "Win")
             {
                 number2 = 1;
@@ -40,6 +48,7 @@ namespace GameCalculator
                 number2 = 0;
             }
 
+
             if (Result3.SelectedValue == "Win")
             {
                 number3 = 1;
@@ -48,6 +57,7 @@ namespace GameCalculator
             {
                 number3 = 0;
             }
+
 
             if (Result4.SelectedValue == "Win")
             {
@@ -87,7 +97,7 @@ namespace GameCalculator
             LabelAverage.Text = Convert.ToString(Convert.ToDouble(LabelTotal.Text) / 4);
 
             //Show the Summary Panel
-            pnlSummary.Visible = true;
+            PanelSummary.Visible = true;
         }
     }
 }

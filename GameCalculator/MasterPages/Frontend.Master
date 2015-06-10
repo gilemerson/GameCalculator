@@ -2,7 +2,7 @@
 
 <!--
     Name: Gil Emerson (200186807)
-    Assignment 1 – Entreprise Computing : Game Calculator
+    Assignment 1 – Entreprise Computing(COMP2007) : Game Calculator
     Due	Date: Friday, June 19 @	11:59pm
     Description: Game Calculator
                 You	will build a simple	c# web application that	performs some basic calculations.
@@ -43,7 +43,6 @@
                         <!--Link to Emerson Inc (personal site)-->
                         <a class="navbar-brand" href="http://webdesign4.georgianc.on.ca/~200186807/EmersonInc/startpage.html">Emerson Inc</a>
                     </div>
-                    <!--navbar-header-->
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -68,29 +67,41 @@
                         </ul>
                         <!--nav navbar-nav navbar-right-->
                     </div>
-                    <!--collapse navbar-collapse-->
                 </nav>
-                <!--navbar navbar-default-->
-
-                <section id="MainContent">
-                    <asp:ContentPlaceHolder ID="cpMainContent" runat="server"></asp:ContentPlaceHolder>
-                </section>
-
-                <!--Footer-->
-                <footer>
-                    <nav class="nav navbar-inverse navbar-fixed-bottom">
-                        <div class="container-fluid">
-                            <h4 class="navbar-text">&copy;Copyright <%: DateTime.Now.Year %> Emerson Inc</h4>
-                        </div>
-                        <!-- navbar-fixed-bottom-->
-                    </nav>
-                    <!-- nav navbar-default-->
-                </footer>
             </div>
-            <!--PageWrapper-->
+            <!--collapse navbar-collapse-->
+            <!--navbar navbar-default-->
+
+            <section id="MainContent">
+                <asp:ContentPlaceHolder ID="cpMainContent" runat="server"></asp:ContentPlaceHolder>
+            </section>
         </form>
     </div>
-    <!--Container-->
+
+    <!--Footer-->
+    <footer>
+        <br /><br /><br />
+        <nav class="nav navbar-inverse navbar-fixed-bottom">
+            <div class="container-fluid">
+                <ul class="inline-list  ">
+                    <li><a href="Default.aspx">Back to top</a></li>
+                </ul>
+                <h4 class="navbar-text">&copy;Copyright <%: DateTime.Now.Year %> Emerson Inc</h4>
+
+                <div class="text-right large-12 columns ">
+                    <a href="https://github.com/gilemerson" target="_blank">
+                        <img id="social" src="/images/git.png" alt="GitHub" /></a>
+                    <a href="mailto:emerson-gil@outlook.com" target="_blank">
+                        <img id="social" src="/images/mail.png" alt="Mail" /></a>
+                    <a href="https://plus.google.com/u/0/118128462929712137793" target="_blank">
+                        <img id="social" src="/images/google.jpg" alt="Google +" /></a>
+                </div>
+            </div>
+            <!--Container-->
+            <!-- navbar-fixed-bottom-->
+        </nav>
+        <!-- nav navbar-default-->
+    </footer>
 
     <!-- JavaScripts -->
     <script src="/Scripts/jquery-1.9.1.min.js"></script>

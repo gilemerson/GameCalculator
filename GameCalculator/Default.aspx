@@ -1,6 +1,15 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" MasterPageFile="~/MasterPages/Frontend.Master" Inherits="GameCalculator.Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
+    <!--
+    Name: Gil Emerson (200186807)
+    Assignment 1 – Entreprise Computing(COMP2007) : Game Calculator
+    Due	Date: Friday, June 19 @	11:59pm
+    Description: Game Calculator
+                You	will build a simple	c# web application that	performs some basic calculations.
+ -->
+
     <!--Website Title-->
     <title>Game Calculator</title>
 </asp:Content>
@@ -9,7 +18,7 @@
     <div class="container">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-3 col-md-3">
+                <div class="col-md-3">
                     <div class="well-lg">
                         <!--Game Play Number #1-->
                         <h1 class="alert-success text-center">Game #1</h1>
@@ -33,10 +42,10 @@
                             <asp:Label ID="LabelSpectatorsNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Spectators:</asp:Label>
                             <asp:TextBox ID="TextSpectatorsNumber1" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                         </div>
-                       
+
                     </div>
                 </div>
-                <div class="col-sm-3 col-md-3">
+                <div class="col-md-3">
                     <div class="well-lg">
                         <!--Game Play Number #2-->
                         <h1 class="alert-success text-center">Game #2</h1>
@@ -60,10 +69,10 @@
                             <asp:Label ID="LabelSpectatorsNumber2" runat="server" CssClass="col-sm-4 control-label alert-success">Spectators:</asp:Label>
                             <asp:TextBox ID="TextSpectatorsNumber2" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                         </div>
-                       
+
                     </div>
                 </div>
-                <div class="col-sm-3 col-md-3">
+                <div class="col-md-3">
                     <div class="well-lg">
                         <!--Game Play Number #3-->
                         <h1 class="alert-success text-center">Game #3</h1>
@@ -88,10 +97,10 @@
                             <asp:Label ID="LabelSpectatorsNumber3" runat="server" CssClass="col-sm-4 control-label alert-success">Spectators:</asp:Label>
                             <asp:TextBox ID="TextSpectatorsNumber3" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                         </div>
-                       
+
                     </div>
                 </div>
-                <div class="col-sm-3 col-md-3">
+                <div class="col-md-3">
                     <div class="well-lg">
                         <!--Game Play Number #4-->
                         <h1 class="alert-success text-center">Game #4</h1>
@@ -117,7 +126,7 @@
                         </div>
                         <!--col-sm-3 col-md-3-->
                     </div>
-                   
+
                     <!--row-->
                 </div>
             </div>
@@ -133,8 +142,8 @@
         <asp:Button ID="btnSummary" CssClass="btn btn-success" runat="server" Text="Summary" OnClick="btnCalculate_Click" />
     </div>
     <!--Summary Section-->
-    <asp:Panel ID="pnlSummary" runat="server" Visible="false">
-        <div class="well col-lg-12">
+    <asp:Panel ID="PanelSummary" runat="server" Visible="false">
+        <div class="well col-lg-14">
             <h4 class="alert-success">Summary</h4>
             <div>
                 <!--Wins Summary-->

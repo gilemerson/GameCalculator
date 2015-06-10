@@ -4,3 +4,13 @@
 nav{
 opacity:0.8;
 }
+
+/* give social media buttons a padding all the way around*/
+#social {
+    margin: 3px 3px 3px 3px;
+}
+
+/* when hovering, take away the top margin to give the impression of the button floating up*/
+#social:hover {
+    margin-top: 0px;
+}

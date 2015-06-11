@@ -42,7 +42,6 @@
                             <asp:Label ID="LabelSpectatorsNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Spectators:</asp:Label>
                             <asp:TextBox ID="TextSpectatorsNumber1" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                         </div>
-
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -69,7 +68,6 @@
                             <asp:Label ID="LabelSpectatorsNumber2" runat="server" CssClass="col-sm-4 control-label alert-success">Spectators:</asp:Label>
                             <asp:TextBox ID="TextSpectatorsNumber2" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                         </div>
-
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -97,7 +95,6 @@
                             <asp:Label ID="LabelSpectatorsNumber3" runat="server" CssClass="col-sm-4 control-label alert-success">Spectators:</asp:Label>
                             <asp:TextBox ID="TextSpectatorsNumber3" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
                         </div>
-
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -126,7 +123,6 @@
                         </div>
                         <!--col-sm-3 col-md-3-->
                     </div>
-
                     <!--row-->
                 </div>
             </div>
@@ -145,7 +141,7 @@
     <asp:Panel ID="PanelSummary" runat="server" Visible="false">
         <div class="well col-lg-14">
             <h4 class="alert-success">Summary</h4>
-            <br/>
+            <br />
             <div>
                 <!--Wins Summary-->
                 <label for="LWins" class="alert-success">Won:</label>
@@ -187,6 +183,5 @@
                 <asp:Label ID="LabelAverage" runat="server"></asp:Label>
             </div>
         </div>
-
     </asp:Panel>
 </asp:Content>

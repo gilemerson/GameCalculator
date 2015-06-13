@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-<!--
+    <!--
     Name: Gil Emerson (200186807)
     Assignment 1 – Entreprise Computing(COMP2007) : Game Calculator
     Due	Date: Friday, June 19 @	11:59pm
@@ -137,6 +137,8 @@
     <div class="text-center">
         <asp:Button ID="ButtonSummary" CssClass="btn btn-success" runat="server" Text="Summary" OnClick="btnCalculate_Click" />
     </div>
+    <hr />
+
     <!--Summary Section-->
     <asp:Panel ID="PanelSummary" runat="server" Visible="false">
         <div class="well col-lg-14">

@@ -100,6 +100,7 @@ namespace GameCalculator
 
             //Show The Summary Panel
             PanelSummary.Visible = true;
+
             
             //Disable the Summary Button after used once, Click reset to 'reset' the Form
             ButtonSummary.Enabled = false;

@@ -135,7 +135,7 @@
     <br />
     <!--Summary Button-->
     <div class="text-center">
-        <asp:Button ID="btnSummary" CssClass="btn btn-success" runat="server" Text="Summary" OnClick="btnCalculate_Click" />
+        <asp:Button ID="ButtonSummary" CssClass="btn btn-success" runat="server" Text="Summary" OnClick="btnCalculate_Click" />
     </div>
     <!--Summary Section-->
     <asp:Panel ID="PanelSummary" runat="server" Visible="false">
@@ -182,6 +182,13 @@
                 <label for="LAverage" class="alert-success">Average Attendance:</label>
                 <asp:Label ID="LabelAverage" runat="server"></asp:Label>
             </div>
+        </div>
+        <!--Line Break-->
+        <hr />
+        <br />
+        <div class="text-center">
+            <!--Reset Form Button-->
+            <asp:Button ID="ResetButton" CssClass="btn btn-danger" runat="server" Text="Reset" OnClick="Button1_Click" />
         </div>
     </asp:Panel>
 </asp:Content>

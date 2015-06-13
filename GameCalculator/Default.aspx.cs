@@ -100,6 +100,16 @@ namespace GameCalculator
 
             //Show The Summary Panel
             PanelSummary.Visible = true;
+            
+            //Disable the Summary Button after used once, Click reset to 'reset' the Form
+            ButtonSummary.Enabled = false;
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            //When 'ResetButton' is clicked, This will redirect the user to a fresh new form
+            Server.Transfer("Default.aspx");
+            
         }
     }
 }

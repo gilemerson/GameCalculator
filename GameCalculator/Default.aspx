@@ -29,15 +29,15 @@
                                 <asp:ListItem Value="Loss" Text="Lose"></asp:ListItem>
                             </asp:RadioButtonList>
                         </div>
-                         <div class="form-group">
-                                <asp:Label ID="LabelScoredNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Points Scored:</asp:Label>
-                                <asp:TextBox ID="TextScoredNumber1" runat="server" CssClass="form-control" placeholder="Points Scored:" TextMode="Number"></asp:TextBox>
-                            </div>
-                            <div class="form-group">
-                                <asp:Label ID="LabelAllowedNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Points Allowed:</asp:Label>
-                                <asp:TextBox ID="TextAllowedNumber1" runat="server" CssClass="form-control" placeholder="Points Allowed:" TextMode="Number"></asp:TextBox>
-                            </div>               
-                            <div class="form-group">
+                        <div class="form-group">
+                            <asp:Label ID="LabelScoredNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Points Scored:</asp:Label>
+                            <asp:TextBox ID="TextScoredNumber1" runat="server" CssClass="form-control" placeholder="Points Scored:" TextMode="Number"></asp:TextBox>
+                        </div>
+                        <div class="form-group">
+                            <asp:Label ID="LabelAllowedNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Points Allowed:</asp:Label>
+                            <asp:TextBox ID="TextAllowedNumber1" runat="server" CssClass="form-control" placeholder="Points Allowed:" TextMode="Number"></asp:TextBox>
+                        </div>
+                        <div class="form-group">
                             <asp:Label ID="LabelSpectatorsNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Spectators:</asp:Label>
                             <asp:TextBox ID="TextSpectatorsNumber1" runat="server" CssClass="form-control" placeholder="Spectators:" TextMode="Number"></asp:TextBox>
                         </div>
@@ -79,7 +79,7 @@
                                 <asp:ListItem Value="Loss" Text="Lose"></asp:ListItem>
                             </asp:RadioButtonList>
                         </div>
-                         <div class="form-group">
+                        <div class="form-group">
                             <asp:Label ID="LabelScoredNumber3" runat="server" CssClass="col-sm-4 control-label alert-success">Points Scored:</asp:Label>
                             <asp:TextBox ID="TextScoredNumber3" runat="server" CssClass="form-control" placeholder="Points Scored:" TextMode="Number"></asp:TextBox>
 
@@ -107,7 +107,7 @@
                             </asp:RadioButtonList>
                         </div>
                         <!--well-lg-->
-                         <div class="form-group">
+                        <div class="form-group">
                             <asp:Label ID="LabelScoredNumber4" runat="server" CssClass="col-sm-4 control-label alert-success">Points Scored:</asp:Label>
                             <asp:TextBox ID="TextScoredNumber4" runat="server" CssClass="form-control" placeholder="Points Scored:" TextMode="Number"></asp:TextBox>
                         </div>
@@ -134,15 +134,15 @@
     <!--Summary Button-->
     <div class="text-center">
         <asp:Button ID="ButtonSummary" CssClass="btn btn-success" runat="server" Text="Summary" OnClick="btnCalculate_Click" />
-    <!--Reset Form Button-->
-            <asp:Button ID="Button1" CssClass="btn btn-danger" runat="server" Text="Reset" OnClick="Button1_Click" />
+        <!--Reset Form Button-->
+        <asp:Button ID="Button1" CssClass="btn btn-danger" runat="server" Text="Reset" OnClick="Button1_Click" />
     </div>
     <hr />
 
     <!--Summary Section-->
     <asp:Panel ID="PanelSummary" runat="server" Visible="false">
         <div class="well col-lg-14">
-            <h4 class="alert-success">Summary</h4>
+            <h4 class="alert-success"><strong>Summary</strong></h4>
             <br />
             <div>
                 <!--Wins Summary-->

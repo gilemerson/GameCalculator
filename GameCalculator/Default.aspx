@@ -31,16 +31,15 @@
                         </div>
                         <div class="form-group">
                             <asp:Label ID="LabelAllowedNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Points Allowed:</asp:Label>
-                            <asp:TextBox ID="TextAllowedNumber1" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            <asp:TextBox ID="TextAllowedNumber1" runat="server" CssClass="form-control" placeholder="Points Allowed:" TextMode="Number"></asp:TextBox>
                         </div>
-                        <div>
+                        <div class="form-group">
                             <asp:Label ID="LabelScoredNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Points Scored:</asp:Label>
-                            <asp:TextBox ID="TextScoredNumber1" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            <asp:TextBox ID="TextScoredNumber1" runat="server" CssClass="form-control" placeholder="Points Scored:" TextMode="Number"></asp:TextBox>
                         </div>
-
                         <div class="form-group">
                             <asp:Label ID="LabelSpectatorsNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Spectators:</asp:Label>
-                            <asp:TextBox ID="TextSpectatorsNumber1" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            <asp:TextBox ID="TextSpectatorsNumber1" runat="server" CssClass="form-control" placeholder="Spectators:" TextMode="Number"></asp:TextBox>
                         </div>
                     </div>
                 </div>
@@ -57,16 +56,16 @@
                         </div>
                         <div class="form-group">
                             <asp:Label ID="LabelAllowedNumber2" runat="server" CssClass="col-sm-4 control-label alert-success">Points Allowed:</asp:Label>
-                            <asp:TextBox ID="TextAllowedNumber2" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            <asp:TextBox ID="TextAllowedNumber2" runat="server" CssClass="form-control" placeholder="Points Allowed:" TextMode="Number"></asp:TextBox>
 
                         </div>
-                        <div>
+                        <div class="form-group">
                             <asp:Label ID="LabelScoredNumber2" runat="server" CssClass="col-sm-4 control-label alert-success">Points Scored:</asp:Label>
-                            <asp:TextBox ID="TextScoredNumber2" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            <asp:TextBox ID="TextScoredNumber2" runat="server" CssClass="form-control" placeholder="Points Scored:" TextMode="Number"></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <asp:Label ID="LabelSpectatorsNumber2" runat="server" CssClass="col-sm-4 control-label alert-success">Spectators:</asp:Label>
-                            <asp:TextBox ID="TextSpectatorsNumber2" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            <asp:TextBox ID="TextSpectatorsNumber2" runat="server" CssClass="form-control" placeholder="Spectators:" TextMode="Number"></asp:TextBox>
                         </div>
                     </div>
                 </div>
@@ -83,17 +82,17 @@
                         </div>
                         <div class="form-group">
                             <asp:Label ID="LabelAllowedNumber3" runat="server" CssClass="col-sm-4 control-label alert-success">Points Allowed:</asp:Label>
-                            <asp:TextBox ID="TextAllowedNumber3" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            <asp:TextBox ID="TextAllowedNumber3" runat="server" CssClass="form-control" placeholder="Points Allowed:" TextMode="Number"></asp:TextBox>
 
                         </div>
-                        <div>
+                        <div class="form-group">
                             <asp:Label ID="LabelScoredNumber3" runat="server" CssClass="col-sm-4 control-label alert-success">Points Scored:</asp:Label>
-                            <asp:TextBox ID="TextScoredNumber3" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            <asp:TextBox ID="TextScoredNumber3" runat="server" CssClass="form-control" placeholder="Points Scored:" TextMode="Number"></asp:TextBox>
 
                         </div>
                         <div class="form-group">
                             <asp:Label ID="LabelSpectatorsNumber3" runat="server" CssClass="col-sm-4 control-label alert-success">Spectators:</asp:Label>
-                            <asp:TextBox ID="TextSpectatorsNumber3" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            <asp:TextBox ID="TextSpectatorsNumber3" runat="server" CssClass="form-control" placeholder="Spectators:" TextMode="Number"></asp:TextBox>
                         </div>
                     </div>
                 </div>
@@ -111,15 +110,15 @@
                         <!--well-lg-->
                         <div class="form-group">
                             <asp:Label ID="LabelAllowedNumber4" runat="server" CssClass="col-sm-4 control-label alert-success">Points Allowed:</asp:Label>
-                            <asp:TextBox ID="TextAllowedNumber4" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            <asp:TextBox ID="TextAllowedNumber4" runat="server" CssClass="form-control" placeholder="Points Allowed:" TextMode="Number"></asp:TextBox>
                         </div>
-                        <div>
+                        <div class="form-group">
                             <asp:Label ID="LabelScoredNumber4" runat="server" CssClass="col-sm-4 control-label alert-success">Points Scored:</asp:Label>
-                            <asp:TextBox ID="TextScoredNumber4" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            <asp:TextBox ID="TextScoredNumber4" runat="server" CssClass="form-control" placeholder="Points Scored:" TextMode="Number"></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <asp:Label ID="LabelSpectatorsNumber4" runat="server" CssClass="col-sm-4 control-label alert-success">Spectators:</asp:Label>
-                            <asp:TextBox ID="TextSpectatorsNumber4" runat="server" CssClass="col-sm-5" TextMode="Number"></asp:TextBox>
+                            <asp:TextBox ID="TextSpectatorsNumber4" runat="server" CssClass="form-control" placeholder="Spectators:" TextMode="Number"></asp:TextBox>
                         </div>
                         <!--col-sm-3 col-md-3-->
                     </div>

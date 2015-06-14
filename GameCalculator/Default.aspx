@@ -29,15 +29,15 @@
                                 <asp:ListItem Value="Loss" Text="Lose"></asp:ListItem>
                             </asp:RadioButtonList>
                         </div>
-                        <div class="form-group">
-                            <asp:Label ID="LabelAllowedNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Points Allowed:</asp:Label>
-                            <asp:TextBox ID="TextAllowedNumber1" runat="server" CssClass="form-control" placeholder="Points Allowed:" TextMode="Number"></asp:TextBox>
-                        </div>
-                        <div class="form-group">
-                            <asp:Label ID="LabelScoredNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Points Scored:</asp:Label>
-                            <asp:TextBox ID="TextScoredNumber1" runat="server" CssClass="form-control" placeholder="Points Scored:" TextMode="Number"></asp:TextBox>
-                        </div>
-                        <div class="form-group">
+                            <div class="form-group">
+                                <asp:Label ID="LabelAllowedNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Points Allowed:</asp:Label>
+                                <asp:TextBox ID="TextAllowedNumber1" runat="server" CssClass="form-control" placeholder="Points Allowed:" TextMode="Number"></asp:TextBox>
+                            </div>
+                            <div class="form-group">
+                                <asp:Label ID="LabelScoredNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Points Scored:</asp:Label>
+                                <asp:TextBox ID="TextScoredNumber1" runat="server" CssClass="form-control" placeholder="Points Scored:" TextMode="Number"></asp:TextBox>
+                            </div>
+                            <div class="form-group">
                             <asp:Label ID="LabelSpectatorsNumber1" runat="server" CssClass="col-sm-4 control-label alert-success">Spectators:</asp:Label>
                             <asp:TextBox ID="TextSpectatorsNumber1" runat="server" CssClass="form-control" placeholder="Spectators:" TextMode="Number"></asp:TextBox>
                         </div>

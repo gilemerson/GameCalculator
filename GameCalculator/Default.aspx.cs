@@ -24,86 +24,111 @@ namespace GameCalculator
         protected void btnCalculate_Click(object sender, EventArgs e)
         {
             //Caculate 'Wins' and 'Losses' For Games 1 Through 4
-            Double number1;   
-            Double number2;
-            Double number3;
-            Double number4;
+            Double game1;
+            Double game2;
+            Double game3;
+            Double game4;
 
-            //Result from game #1
-            if (Result1.SelectedValue == "Win")
+            bool error = false;
+
+            try
             {
-                number1 = 1;
-            } 
-            else
-            {
-                number1 = 0;
+                //Result from game #1
+                if (GameResult1.SelectedValue == "Win")
+                {
+                    game1 = 1;
+                }
+                else
+                {
+                    game1 = 0;
+                }
+
+                //Result from game #2
+                if (GameResult2.SelectedValue == "Win")
+                {
+                    game2 = 1;
+                }
+                else
+                {
+                    game2 = 0;
+                }
+
+                //Result from game #34
+                if (GameResult3.SelectedValue == "Win")
+                {
+                    game3 = 1;
+                }
+                else
+                {
+                    game3 = 0;
+                }
+
+                //Result from game #4
+                if (GameResult4.SelectedValue == "Win")
+                {
+                    game4 = 1;
+                }
+                else
+                {
+                    game4 = 0;
+                }
+
+
+                //Summary Output Section//
+
+                //Calculate The Number of Wins
+                Double Win = game1 + game2 + game3 + game4;
+                LabelWins.Text = Convert.ToString(Win);
+
+                //Calculate The Number of Losses
+                Double Loss = 4 - Win;
+                LabelLoss.Text = Convert.ToString(Loss);
+
+
+                //Caculate Winning %
+                Double Won = Win / 4;
+                LabelWinning.Text = Convert.ToString(Won);
+
+
+                //Caculate Total Scored
+                LabelScored.Text = Convert.ToString(Convert.ToDouble(TextScoredNumber1.Text) + Convert.ToDouble(TextScoredNumber2.Text) + Convert.ToDouble(TextScoredNumber3.Text) + Convert.ToDouble(TextScoredNumber4.Text));
+
+                //Caculate Total Allowed
+                LabelAllowed.Text = Convert.ToString(Convert.ToDouble(TextAllowedNumber1.Text) + Convert.ToDouble(TextAllowedNumber2.Text) + Convert.ToDouble(TextAllowedNumber3.Text) + Convert.ToDouble(TextAllowedNumber4.Text));
+
+                //Caculate Point Differential
+                LabelDifferential.Text = Convert.ToString(Convert.ToDouble(LabelScored.Text) - Convert.ToDouble(LabelAllowed.Text));
+
+                //Caculate Spectators
+                LabelTotal.Text = Convert.ToString(Convert.ToDouble(TextSpectatorsNumber1.Text) + Convert.ToDouble(TextSpectatorsNumber2.Text) + Convert.ToDouble(TextSpectatorsNumber3.Text) + Convert.ToDouble(TextSpectatorsNumber4.Text));
+
+                //Caculate Average
+                LabelAverage.Text = Convert.ToString(Convert.ToDouble(LabelTotal.Text) / 4);
+
+                //Show The Summary Panel
+                PanelSummary.Visible = true;
+
+
+                //Disable the Summary Button after used once, Click reset to 'reset' the Form
+                ButtonSummary.Enabled = false;
+
+               
             }
 
-            //Result from game #2
-            if (Result2.SelectedValue == "Win")
+            catch (FormatException)
             {
-                number2 = 1;
+                error = true;
             }
-            else
+            // Catch Overflow Exceptions
+            catch (OverflowException)
             {
-                number2 = 0;
+                error = true;
             }
-
-            //Result from game #34
-            if (Result3.SelectedValue == "Win")
+            // Catch any exceptions that weren't caught previously
+            catch (Exception)
             {
-                number3 = 1;
+                error = true;
             }
-            else
-            {
-                number3 = 0;
-            }
-
-            //Result from game #4
-            if (Result4.SelectedValue == "Win")
-            {
-                number4 = 1;
-            }
-            else
-            {
-                number4 = 0;
-            }
-
-            //Calculate The Number of Wins
-            Double Win = number1 + number2 + number3 + number4;
-            LabelWins.Text = Convert.ToString(Win);
-
-            //Calculate The Number of Losses
-            Double Loss = 4 - Win;
-            LabelLoss.Text = Convert.ToString(Loss);
-
-
-            //Caculate Winning %
-            Double Won = Win / 4;
-            LabelWinning.Text = Convert.ToString(Won);
-
-
-            //Caculate Total Scored
-            LabelScored.Text = Convert.ToString(Convert.ToDouble(TextScoredNumber1.Text) + Convert.ToDouble(TextScoredNumber2.Text) + Convert.ToDouble(TextScoredNumber3.Text) + Convert.ToDouble(TextScoredNumber4.Text));
-
-            //Caculate Total Allowed
-            LabelAllowed.Text = Convert.ToString(Convert.ToDouble(TextAllowedNumber1.Text) + Convert.ToDouble(TextAllowedNumber2.Text) + Convert.ToDouble(TextAllowedNumber3.Text) + Convert.ToDouble(TextAllowedNumber4.Text));
-
-            //Caculate Point Differential
-            LabelDifferential.Text = Convert.ToString(Convert.ToDouble(LabelScored.Text) - Convert.ToDouble(LabelAllowed.Text));
-
-            //Caculate Spectators
-            LabelTotal.Text = Convert.ToString(Convert.ToDouble(TextSpectatorsNumber1.Text) + Convert.ToDouble(TextSpectatorsNumber2.Text) + Convert.ToDouble(TextSpectatorsNumber3.Text) + Convert.ToDouble(TextSpectatorsNumber4.Text));
-
-            //Caculate Average
-            LabelAverage.Text = Convert.ToString(Convert.ToDouble(LabelTotal.Text) / 4);
-
-            //Show The Summary Panel
-            PanelSummary.Visible = true;
-
-            
-            //Disable the Summary Button after used once, Click reset to 'reset' the Form
-            ButtonSummary.Enabled = false;
         }
 
         protected void Button1_Click(object sender, EventArgs e)
